@@ -262,3 +262,5 @@ if __name__=="__main__":
           valid_logprob = valid_logprob + logprob(predictions, b[1])
         print('Validation set perplexity: %.2f' % float(np.exp(
           valid_logprob / valid_size)))
+
+     
